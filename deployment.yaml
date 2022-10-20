@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: public.ecr.aws/c8c5j2q6/argocd:20
+        image: public.ecr.aws/c8c5j2q6/argocd:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
